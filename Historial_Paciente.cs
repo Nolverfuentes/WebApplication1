@@ -7,21 +7,18 @@ namespace WebApplication1
 {
     public class Historial_Paciente
     {
-        public static string Id_consulta { get; set; }
-        public static string Nit_Paciente  { get; set; }
-        public static DateTime Fecha_hora_consulta { get; set; }
-        public static string Hora_Inicio { get; set; }
-        public static string Temperatura { get; set; }
-        public static string Presion { get; set; }
-        public static string Sintomas { get; set; }
-
+        public  string Id_consulta { get; set; }
+        public  string Nit_Paciente  { get; set; }
+        public  DateTime Fecha_hora_consulta { get; set; }
+        public  string Hora_Inicio { get; set; }
+        public  string Temperatura { get; set; }
+        public  string Presion { get; set; }
+        public  List<Sintoma> sintomas { get; set; }
         public static string Diagnostico { get; set; }
-        public static string Tratamiento { get; set; }
-        public static string Receta { get; set; }
-
-        public static string Proxima_visita { get; set; }
-
-        public static string Costo_Consulta { get; set; }
+        public  string Tratamiento { get; set; }
+        public  string Receta { get; set; }
+        public  string Proxima_visita { get; set; }
+        public  string Costo_Consulta { get; set; }
        
 
 
